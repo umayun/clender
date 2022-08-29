@@ -1,0 +1,69 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <script src="https://kit.fontawesome.com/8fb2d10c87.js" crossorigin="anonymous"></script>
+    <style>
+
+       .login-container{
+        display: flex;
+        justify-content: center;
+        margin:70px;
+       }
+         .login-from{
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+           /* border:solid  1px saddlebrown;  */
+        }
+        .login-from input{
+            margin: 10px;
+            font-size: 1.5em;
+            padding: 5px 10px ;
+         }
+         .login-from input[type="submit"]{
+            background-color: goldenrod;
+            border: 0;
+            border-radius: 5px;
+            color: aliceblue;
+            font-weight: 700;
+         }
+         nav a{
+            text-decoration: none;
+            color: black;
+            margin-right:10px ;
+          
+         }
+         nav{
+            display: flex;
+           justify-content: space-between;
+           font-size: 20px;
+        
+         }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <samp> <a href="">Home</a>
+                <a href="">About </a>
+                <a href="">Other </a>
+               </samp>
+               <span>
+                <i class="fa-solid fa-right-from-bracket"></i>
+             <i class="fa-solid fa-users"></i>
+            </span> 
+        </nav>
+    </header>
+   <section class="login-container">
+    <form  class="login-From">
+        <h1>Login</h1>
+    <input type="email" name="" id="" placeholder="Inter E-mail" required>
+    <input type="password" name="" id="" placeholder="Password"required>
+    <input type="submit" value="Login">
+    </form>
+   </section>
+</body>
+</html>
